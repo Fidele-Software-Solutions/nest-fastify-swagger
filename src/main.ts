@@ -13,8 +13,8 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const options = new DocumentBuilder()
-    .setTitle('LingWing App API')
-    .setDescription('The Swagger OpenAPI specification for LingWing')
+    .setTitle('NestJS App API')
+    .setDescription('The Swagger OpenAPI specification for NestJS app')
     .setVersion('1.0')
     .setBasePath('api')
     .build();
